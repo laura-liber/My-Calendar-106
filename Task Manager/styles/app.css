@@ -1,0 +1,89 @@
+body {
+    font-family: 'lucida console', Monaco, monospace;  
+}
+
+header {
+    background-color: rgb(238,248,217);
+    border-radius: 3px;
+    padding: 2px;
+    margin: 3px;
+}
+
+h1 {
+    color:#1ca3cc;
+    text-align: center; 
+    padding-top: 3vh;
+    padding-bottom: 4vh;
+    background-color: rgb(238, 248, 217);
+    border: 1px solid yellowgreen;
+}
+
+h3 {
+    color:#047da1;
+    text-align: center;
+    font-size: 30px;
+}
+
+.container-fluid {
+    display:flex;
+    height:100%;
+
+}
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+#center {
+    text-align: center;
+}
+
+#list {
+    display: flex;
+    width: 68%;
+    background-color:rgb(227, 252, 243);
+    border: 1px solid #05a0cf;
+
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    color:#05a0cf;
+    background-color:#eff4fd;
+    border: 1px solid #05a0cf;
+    
+}
+
+#iconImp {
+    font-size: 35px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#iconImp.far {
+    color:rgb(247, 204, 196);
+    font-size: 30px;
+}
+
+#iconImp.fas {
+    color:tomato;
+    font-size: 40px;
+}
+
+#btnSave {
+    border-radius: 3px;
+    margin: 3px;
+    background-color:rgb(238, 248, 217);
+    color: rgb(135, 202, 0);
+    border-color: yellowgreen;
+    
+}
+
+.task {
+    border: 1px solid #cecece;
+    padding: 10px 40px;
+    background: white;
+    border-radius: 6px;
+}
